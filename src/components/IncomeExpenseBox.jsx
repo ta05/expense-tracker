@@ -1,6 +1,8 @@
 import React, { useContext } from "react";
 import { GlobalContext } from "../context/GlobalState";
 
+import "../styles/IncomeExpenseBox.css";
+
 const IncomeExpenseBox = () => {
     const { transactions } = useContext(GlobalContext);
 
